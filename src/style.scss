@@ -1,0 +1,50 @@
+#root {
+  .container {
+    .list-card {
+      margin: 1rem;
+      padding: 1rem;
+      min-width: fit-content;
+      background: #eeeeee;
+      .list-title {
+        font-weight: bold;
+        color: #007bff;
+        white-space: nowrap;
+        .item-count {
+          border-radius: 0.7rem;
+          padding: 0 0.5rem;
+          background: #888888;
+          color: white !important;
+        }
+      }
+      .card {
+        background: white;
+        flex-direction: row;
+        .job-title {
+          margin: {
+            right: 1rem;
+            bottom: 0.3rem;
+          }
+          font-weight: 600;
+          word-break: break-word;
+        }
+        .row {
+          padding-bottom: 0.5rem !important;
+        }
+        button {
+          margin: {
+            left: auto;
+            top: auto;
+            bottom: auto;
+          }
+          padding: 0 0.5rem;
+        }
+        &:last-child {
+          margin-bottom: 0 !important;
+        }
+      }
+      button {
+        white-space: nowrap;
+      }
+    }
+  }
+}

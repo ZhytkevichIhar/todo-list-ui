@@ -1,0 +1,31 @@
+.modal-content {
+  .modal-header {
+    padding: {
+      top: 0 !important;
+      bottom: 0 !important;
+      right: 0 !important;
+    }
+    border: none;
+    .modal-title {
+      padding-top: 1rem;
+    }
+  }
+  .modal-body {
+    padding: {
+      top: 1rem;
+      bottom: 0;
+    }
+    label {
+      white-space: nowrap;
+    }
+    input[type="text"] {
+      padding: {
+        top: 0 !important;
+        bottom: 0 !important;
+      }
+    }
+  }
+  .modal-footer {
+    border: none;
+  }
+}
